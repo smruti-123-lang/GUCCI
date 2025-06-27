@@ -4,7 +4,7 @@ A visually rich, fully responsive front-end clone of the Gucci homepage. This pr
 
 ## 🖥️ Demo
 
-🔗 [Live Site](https://vercel.com/smruti-123-langs-projects/gucci-snm2)
+🔗 [Live Site](https://gucci-snm2.vercel.app/))
 
 
 ## 🧰 Tech Stack
