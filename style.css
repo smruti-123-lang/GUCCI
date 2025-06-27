@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=David+Libre:wght@400;500;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap');
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.banner {
+    box-sizing: border-box;
+    /* This includes border in the width */
+    width: 100vw;
+    height: 100vh;
+    background-image: url('HP_Hero-FullBleed-Desktop_Gucci-LIDO-TIERI-APR25-40F-06-17-JIM2-8bit-JIM4-EXT_001_Default.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+
+img {
+    height: 20px;
+    width: 20px;
+}
+
+.gucci {
+    font-size: 25px;
+    padding-left: 85px;
+    font-weight: 400;
+}
+
+.one {
+    font-size: smaller;
+    text-transform: lowercase;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28vw;
+    text-transform: uppercase;
+    background-color: #fff;
+    opacity: 1;
+    margin: 0px;
+    height: 80px;
+    padding: 0px;
+    width: 100vw;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    font-size: 15px;
+}
+
+.guli {
+    font-family: "poppins";
+    font-weight: 400;
+
+}
+
+#touch {
+    position: relative;
+    top: 70%;
+    text-align: center;
+    font-size: 35px;
+    text-transform: capitalize;
+    color: #f1f1f1;
+    filter: brightness(1);
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 1;
+    gap: 15px;
+}
+
+.btn>button {
+    border: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 10px;
+    padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    opacity: 1;
+    cursor: pointer;
+    color: rgb(1, 1, 31);
+    border-radius: 2px;
+}
+
+.btn :hover {
+    transform: scale(0.9);
+    transition: 0.2s ease-in-out;
+
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+
+}
+
+.sec_ban {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: Arial, sans-serif;
+    margin-top: 100px;
+}
+
+#sec_bus {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 49px;
+    padding: 1px;
+    margin: 5px;
+    margin-top: 100px;
+}
+
+#one {
+    transition: all 0.8s ease-in-out;
+  text-shadow: 11px -2px 23px rgba(4, 7, 36, 1);
+}
+
+.sec_box {
+    /*  */
+    max-width: 250px;
+    overflow: hidden;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: Courier, monospace;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.small {
+    cursor: pointer;
+}
+
+.sec_box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+
+}
+
+.small :hover {
+    transform: scale(0.85);
+    transition: all 0.3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+
+
+.one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+#hero {
+    cursor: pointer;
+}
+
+#hero:hover {
+    background-color: transparent;
+}
+
+.model {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.woman {
+    background-image: url("womencollection.webp");
+    box-sizing: border-box;
+    /* This includes border in the width */
+    width: 45vw;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.man {
+    background-image: url("man\ collection.avif");
+    box-sizing: border-box;
+    /* This includes border in the width */
+    width: 45vw;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.colln {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.lido {
+    border: 1px solid white;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+    margin: 220px;
+    border: 2px solid rgb(246, 238, 238);
+    background: #c4c2c2;
+    background: radial-gradient(circle, rgba(196, 194, 194, 1) 55%, rgba(99, 130, 168, 1) 79%);
+}
+
+.jump {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    transform: translateY(0) scale(1);
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.jump :hover {
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+
+.jump.scrolled {
+    transform: translateY(-30px) scale(1.05);
+    opacity: 0.9;
+}
+
+.boxx {
+    border: 2px solid white;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-family: "poppins";
+    font-weight: 500;
+    color: white;
+    font-size: larger;
+    padding: 10px;
+    margin-bottom: 19px;
+}
+
+.jump>p {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+
+}
+
+.service {
+    padding-top: 10px;
+}
+
+.videos {
+    display: flex;
+    flex-direction: column;
+}
+
+.play {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 39px;
+    margin-top: 80px;
+
+}
+
+.play-icon {
+    display: none;
+}
+
+.play video {
+    height: 400px;
+    width: 350px;
+
+    margin-bottom: 10px;
+    object-fit: cover;
+    /* transform: scale(1); */
+
+}
+
+.contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 39px;
+    margin: 30px;
+}
+
+.content {
+    width: 350px;
+}
+
+.content b {
+    font-size: 30px;
+    padding: 3px;
+    font-weight: 300;
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+.content h4 {
+    padding: 3px;
+    margin: 5px;
+    font-family: "David Libre", serif;
+    font-weight: 400;
+    font-style: normal;
+    word-spacing: 1px;
+    line-height: 1.5;
+}
+
+
+
+.create {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.poise img {
+    width: 40vw;
+    height: fit-content;
+    cursor: pointer;
+}
+
+.poise :hover {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    transform: scale(.9);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.sea {
+    padding: 20px;
+    font-family: "poppins";
+
+}
+
+
+.sea h1 {
+    font-family: "Rubik Beastly", system-ui;
+}
+
+.extra {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.head {
+    margin-bottom: 30px;
+}
+
+.video-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.gucci-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 50%;
+    font-size: 20px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    z-index: 10;
+}
+
+.gucci-btn:hover {
+    background: black;
+    color: white;
+    border-color: white;
+}
+
+.play-icon,
+.pause-icon {
+    font-family: sans-serif;
+    font-weight: bold;
+    pointer-events: none;
+}
+/* Mobile Phones (up to 480px) */
+@media screen and (max-width: 480px) {
+  .play video,
+  .poise img {
+    width: 100%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    margin-top: 40px;
+  }
+
+  .gucci {
+    font-size: 1.2rem;
+    padding-left: 30px;
+  }
+
+  .guli,
+  .boxx,
+  .jump > p,
+  .lido {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .lido {
+    margin: 100px auto;
+    padding: 10px 20px;
+  }
+
+  .btn > button {
+    font-size: 10px;
+    padding: 10px 16px;
+  }
+
+  .colln,
+  .model,
+  .extra,
+  .contents {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 10px;
+    gap: 20px;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .gudo {
+    justify-content: center;
+  }
+}
+
+/* Tablets (481px - 768px) */
+@media screen and (max-width: 768px) {
+  .play video,
+  .poise img {
+    width: 100%;
+    height: auto;
+  }
+
+  .model,
+  .colln,
+  .contents,
+  .extra {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 20px;
+    gap: 30px;
+  }
+
+  .lido {
+    font-size: 16px;
+    margin: 150px auto;
+  }
+
+  .btn > button {
+    font-size: 12px;
+    padding: 12px 20px;
+  }
+
+  .jump > p {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .boxx {
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .gudo {
+    text-align: center;
+    justify-content: center;
+  }
+  .gucci{
+    display: flex;
+    justify-content: center;
+  }
+  .lido {
+  margin: 60px auto;
+}
+
+}
