@@ -4,7 +4,7 @@ A visually rich, fully responsive front-end clone of the Gucci homepage. This pr
 
 ## 🖥️ Demo
 
-🔗 [Live Site][https://gucci-six.vercel.app/]
+🔗 [Live Site]([https://gucci-six.vercel.app/])
 
 
 ## 🧰 Tech Stack
