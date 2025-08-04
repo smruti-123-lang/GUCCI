@@ -1,11 +1,9 @@
 # 👜 Gucci-Inspired Fashion Website Clone
 
 A visually rich, fully responsive front-end clone of the Gucci homepage. This project showcases elegant UI design, hover effects, scroll-based animations, and dynamic layout adjustments across screen sizes — built using **HTML**, **CSS**, and **JavaScript**.
-
 ## 🖥️ Demo
 
-🔗 [Live Site]([https://gucci-six.vercel.app/])
-
+🔗 [Live Site](https://gucci-six.vercel.app/)
 
 ## 🧰 Tech Stack
 
